@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class FoldersAndFilesWithJava {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws IOException {
 		String rootPath = System.getProperty("user.dir");
 		System.out.println(rootPath);
 		

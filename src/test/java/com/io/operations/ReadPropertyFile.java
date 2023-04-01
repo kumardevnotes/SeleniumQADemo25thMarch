@@ -1,11 +1,13 @@
 package com.io.operations;
 
+import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.Properties;
 
 public class ReadPropertyFile {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws IOException {
 		String rootPath = System.getProperty("user.dir");
 		FileReader fileReaderObj = new FileReader(rootPath+"//src//test//resources//appData.properties");
 		

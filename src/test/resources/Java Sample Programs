@@ -1,0 +1,5 @@
+print even numbers from 1 to 100
+print prime numbers from 1 to 20
+print array  numbers in reverse order - {100, 201,33,45} --> 45,33,201,100
+print a string in reverse order - "Kumar" --> "ramuK"
+add employee details in List collection object and print the details
