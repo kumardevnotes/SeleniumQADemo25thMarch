@@ -1,6 +1,9 @@
 package com.inheritance.demo;
 
-public class StudentClass {
+//Inheriting the methods of Parent into Child
+//Child class extends Parent class
+//Subclass extends Super class
+public class StudentClass extends SchoolClass{ // 3+2 = 5
 
 	//below is a static method
 	public static void main(String[] args) {
@@ -12,6 +15,17 @@ public class StudentClass {
 		
 		myObj.dislayStdName();
 		myObj.dislayStdName("Kumar");
+		
+		myObj.displaySchoolName();
+		myObj.displaySchoolId();
+		
+		
+	}
+	
+	//Overriding the method of parent class in child class
+	//Runtime or dynamic polymorphism
+	public void displaySchoolId() {
+		System.out.println(1234);
 	}
 	
 	//If method names are same in a Java file, then it is called method overloadoing or static polymorphism
