@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class ReadPropertyFile {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException  {
 		String rootPath = System.getProperty("user.dir");
 		FileReader fileReaderObj = new FileReader(rootPath+"//src//test//resources//appData.properties");
 		

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginCheckGmail(failed)">
+    <classes>
+      <class name="com.testng.demo.GmailTests">
+        <methods>
+          <include name="gmailInValidLoginCheck"/>
+        </methods>
+      </class> <!-- com.testng.demo.GmailTests -->
+    </classes>
+  </test> <!-- LoginCheckGmail(failed) -->
+  <test thread-count="5" name="LoginCheckFacebook(failed)">
+    <classes>
+      <class name="com.testng.demo.FacebookTests">
+        <methods>
+          <include name="facebookInValidLoginCheck"/>
+        </methods>
+      </class> <!-- com.testng.demo.FacebookTests -->
+    </classes>
+  </test> <!-- LoginCheckFacebook(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->

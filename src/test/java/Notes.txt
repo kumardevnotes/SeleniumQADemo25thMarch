@@ -1,0 +1,6 @@
+
+Agenda for today: 8th April 2023
+
+Exceptions
+Interfaces/Abstract classes
+TestNG Introduction

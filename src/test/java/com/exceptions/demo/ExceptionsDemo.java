@@ -2,34 +2,41 @@ package com.exceptions.demo;
 
 public class ExceptionsDemo {
 	
-	/*Throwable
+	 /*Throwable
 	 * Exception
-	 * NulPointerException
+	 * 
+	 * Checked exception category
 	 * FileNotFoundException
+	 * IOException
+	 * 
+	 * Unchecked exception category
+	 * NulPointerException
 	 * ArithmeticException
 	 * ArrayIndexOutofBoundsException
-	 * IOException*/
+	 * */
 
 	public static void main(String[] args) {
+		System.out.println("Start of the program");
+		
 		try {
-			
-			String myName = "Kumar";
-			System.out.println(myName.toUpperCase());
+			String empName = "Kumar";
+			System.out.println(empName.toUpperCase());
 			
 			int firstNum = 100;
 			int secondNum = 10;
-			System.out.println(firstNum/secondNum); //100/0
+			System.out.println(firstNum/secondNum); //100 is divided by 10
 			
 		} catch (NullPointerException e) {
-			System.out.println("Caught an exception: "+e);
+			System.out.println("Caught an exception "+e);
 		}
 		
 		catch (ArithmeticException e) {
-			System.out.println("Caught an exception: "+e);
+			System.out.println("Caught an exception "+e);
 		}
 		
 		finally {
-			System.out.println("This is executed whether you get exception or not");
+			//to close open files, to delete unwanted files 
+			System.out.println("I am an optional block in try..catch. I will run always");
 		}
 		
 		System.out.println("End of the program");

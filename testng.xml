@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="SmokeTest" verbose="1" >
+  
+  <test name="LoginCheckGmail">
+    <classes>
+      <class name="com.testng.demo.GmailTests"/>
+    </classes>
+  </test>
+  
+  <test name="LoginCheckFacebook">
+    <classes>
+      <class name="com.testng.demo.FacebookTests"/>
+    </classes>
+  </test>
+  
+</suite>
