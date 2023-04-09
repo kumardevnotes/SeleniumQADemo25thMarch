@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.demo.FacebookTests">
+      <class name="com.testng.demo.SeleniumDemo2">
         <methods>
-          <include name="facebookInValidLoginCheck"/>
+          <include name="verifyUserLogin"/>
         </methods>
-      </class> <!-- com.testng.demo.FacebookTests -->
+      </class> <!-- com.testng.demo.SeleniumDemo2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

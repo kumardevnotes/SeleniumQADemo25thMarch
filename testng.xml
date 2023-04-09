@@ -2,15 +2,10 @@
   
 <suite name="SmokeTest" verbose="1" >
   
-  <test name="LoginCheckGmail">
+  <parameter name="browser"  value="Edge"/>
+  <test name="LoginCheck">
     <classes>
-      <class name="com.testng.demo.GmailTests"/>
-    </classes>
-  </test>
-  
-  <test name="LoginCheckFacebook">
-    <classes>
-      <class name="com.testng.demo.FacebookTests"/>
+      <class name="com.testng.demo.SeleniumDemo2"/>
     </classes>
   </test>
   

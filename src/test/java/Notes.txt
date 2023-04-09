@@ -1,6 +1,7 @@
 
-Agenda for today: 8th April 2023
+Agenda for today: 9th April 2023
 
-Exceptions
-Interfaces/Abstract classes
-TestNG Introduction
+Selenium Introduction
+Webpage terminology and basics
+TestNG examle with Selenium script
+TestNG concepts deepdive
