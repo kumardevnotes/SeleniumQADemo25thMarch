@@ -1,0 +1,12 @@
+TestNG  - Test Next Generation - Testing Framework
+
+JUnit/TestNG -  Java
+MSTest/NUnit - C#  (.net)
+Jasmine - Javascript
+
+If you want to work with TestNG:
+
+Install TestNG plugin in eclipse
+Add testNG lib/jar/dependency file into your project
+3. Create TestNG class and add your testcases and Assertions and then Run it
+4. You can see the results in eclipse console/ testng console/testng report

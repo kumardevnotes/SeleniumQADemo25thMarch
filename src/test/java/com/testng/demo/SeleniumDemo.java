@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
 
 public class SeleniumDemo {
 
-	@Test (priority=2)
-	public void launchAppInChrome() throws Exception {
+	@Test (groups = { "Regression"})
+	public void launchFacebook() throws Exception {
 		
 		System.out.println("Launching the app in Chrome");
 		
@@ -40,8 +40,8 @@ public class SeleniumDemo {
 		System.out.println("App closed which is opened in Chrome");
 	}
 
-	@Test (priority=1)
-	public void launchAppInEdge() throws Exception {
+	@Test (groups = { "Smoke"})
+	public void launchGamil() throws Exception {
 
 		System.out.println("Launching the app in Edge");
 		

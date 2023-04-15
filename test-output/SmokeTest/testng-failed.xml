@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [SmokeTest]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="LoginCheckGmail(failed)">
+  <parameter name="browser" value="Edgeeeee"/>
+  <test thread-count="5" name="LoginCheck(failed)">
     <classes>
-      <class name="com.testng.demo.GmailTests">
+      <class name="com.testng.demo.SeleniumDemo2">
         <methods>
-          <include name="gmailInValidLoginCheck"/>
+          <include name="verifyUserLogin" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.testng.demo.GmailTests -->
+      </class> <!-- com.testng.demo.SeleniumDemo2 -->
     </classes>
-  </test> <!-- LoginCheckGmail(failed) -->
-  <test thread-count="5" name="LoginCheckFacebook(failed)">
-    <classes>
-      <class name="com.testng.demo.FacebookTests">
-        <methods>
-          <include name="facebookInValidLoginCheck"/>
-        </methods>
-      </class> <!-- com.testng.demo.FacebookTests -->
-    </classes>
-  </test> <!-- LoginCheckFacebook(failed) -->
+  </test> <!-- LoginCheck(failed) -->
 </suite> <!-- Failed suite [SmokeTest] -->

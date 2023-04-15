@@ -1,12 +1,22 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-  
-<suite name="SmokeTest" verbose="1" >
-  
-  <parameter name="browser"  value="Edge"/>
-  <test name="LoginCheck">
-    <classes>
-      <class name="com.testng.demo.SeleniumDemo2"/>
-    </classes>
-  </test>
-  
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SmokeTest" verbose="1">
+<!-- suite name="SmokeTest" verbose="1" parallel="methods" thread-count="5" -->
+
+	<parameter name="browser" value="Chrome" />
+	<parameter name="username" value="johnnitesh2@gmail.com" />
+	<parameter name="password" value="Testing@123" />
+	<test name="LoginCheck">
+		<groups>
+			<run>
+				<include name="Regression" />
+				<exclude name="Smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.testng.demo.SeleniumDemo" />
+			<class name="com.testng.demo.SeleniumDemo2" />
+		</classes>
+	</test>
+
 </suite>

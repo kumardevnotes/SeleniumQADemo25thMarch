@@ -1,0 +1,38 @@
+
+Add Selenium (WebDriver 4.0) lib/jar/dependency into your project
+   - Selenium automates web aps but not desktopapps
+   - Mobile apps can be automated using appium which is a wrapper on Selenium
+Check your browser version and get the required driver file - 112.0.5615     
+Create a TestNg class, create testcase and then add Selenium script
+Then run testcase and check the report/result
+
+Selenium Architecture diagram: https://www.softwaretestingmaterial.com/wp-content/uploads/2017/12/Selenium-WebDriver-Architecture.png
+
+DOM - document  object locator or HTML window
+
+Selenium Locators:
+
+id
+name
+className
+linkText
+partialLinkText
+tagName
+
+
+xPath
+
+css Selector
+
+xPath -->  Absolute xpath which starts with / and relative xpath which starts with //
+
+Absolute xpath: /html/body/div[1]/div[1]/div[4]/ul/li[2]/a
+
+Relatinx xpath using exact text match --> //a[text()='Sign up']
+//li[@id='nav_login'] --> using attribute and its value
+//input[@name='first_name']
+
+//h1[contains(text(),'to Speak Languages')] --> partial text match
+(//div//input[@name])[4] --> index based xath
+
+//input[@name='first_name']/..

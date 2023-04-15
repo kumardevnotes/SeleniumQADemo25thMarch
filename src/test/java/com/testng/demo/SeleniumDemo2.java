@@ -12,13 +12,13 @@ import org.testng.annotations.Test;
 
 public class SeleniumDemo2 {
 
-	@Parameters({ "browser" })
-	@Test
-	public void verifyUserLogin(String browser) throws Exception {
+	@Parameters({ "browser", "username", "password" })
+	@Test (groups = { "Smoke"})
+	public void verifyUserLogin(String browser, String username, String password) throws Exception {
 		String rootFolder  = System.getProperty("user.dir");
 		WebDriver driver = null ;
 		
-		switch(browser) {
+		switch(browser) { 
 		
 		case "Chrome":
 		System.setProperty("webdriver.chrome.driver", rootFolder+"//src//test//resources//chromedriver.exe");
@@ -52,8 +52,8 @@ public class SeleniumDemo2 {
 		driver.findElement(By.linkText("Log in")).click(); //linkText is called selenium locator
 		
 		//entering email address and passwords into text fields on login page
-		driver.findElement(By.id("email_input")).sendKeys("johnnitesh2@gmail.com");
-		driver.findElement(By.id("password_input")).sendKeys("Testing@123");
+		driver.findElement(By.id("email_input")).sendKeys(username);
+		driver.findElement(By.id("password_input")).sendKeys(password);
 		
 		//clicking on login button
 		driver.findElement(By.id("login_button")).click();
