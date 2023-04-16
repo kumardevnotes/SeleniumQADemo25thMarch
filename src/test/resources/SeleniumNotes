@@ -36,3 +36,83 @@ Relatinx xpath using exact text match --> //a[text()='Sign up']
 (//div//input[@name])[4] --> index based xath
 
 //input[@name='first_name']/..
+
+
+    ::Selenium methods::
+
+get(String url) --> This method launches your application
+navigate().back() --> this method navigates back the browser
+navigate().forward() --> this method navigates forwards the browser
+navigate().refresh() --> this method refreshed the browser
+maximize() --> This method will maximize the browser
+
+newWindow(WindowType.TAB) --> // Opens a new tab and switches to new tab
+
+close() --> It will close current window
+quit() --> It will close all opned windows
+
+Dimension dimension = new Dimension(1920, 1080);
+setSize(dimension) --> This method will resie the window depending on the dimensions passed
+
+sendKeys(String value) --> This method is used to pass the string value into a text field
+click() --> Used to click on a given element
+
+getText() --> This method is sued to get the text on the screen or web page
+getTitle() --> To get the title of the web page
+getAttribute() 	--> This method is used to get the attribute val 
+
+Actions class in Selenium
+mouseHover() --> 
+dragDrop() --> Drag from source and drop it in destination
+
+Alert.accept()-->
+Alert.dismiss()-->
+
+findElement()-->
+findElements()-->
+getWindowHandle()-->
+
+*** Yet to cover in next week **
+
+Select class in Selenium
+SelectByIndex()-->
+SelectBYValue()-->
+SelectByVisibleText()-->
+
+getWindowHandle()-->
+getWindowHandles()-->
+switchToWindow()-->
+
+JavascriptExecutor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

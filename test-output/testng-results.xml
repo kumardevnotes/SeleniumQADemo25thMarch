@@ -2,19 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-15T22:43:54 IST" name="Default suite" finished-at="2023-04-15T22:44:14 IST" duration-ms="19083">
+  <suite started-at="2023-04-16T21:44:49 IST" name="Default suite" finished-at="2023-04-16T21:46:14 IST" duration-ms="85453">
     <groups>
-      <group name="Regression">
-        <method signature="SeleniumLocatorsDemo.launchFacebook()[pri:0, instance:com.testng.demo.SeleniumLocatorsDemo@3972a855]" name="launchFacebook" class="com.testng.demo.SeleniumLocatorsDemo"/>
-      </group> <!-- Regression -->
     </groups>
-    <test started-at="2023-04-15T22:43:54 IST" name="Default test" finished-at="2023-04-15T22:44:14 IST" duration-ms="19083">
-      <class name="com.testng.demo.SeleniumLocatorsDemo">
-        <test-method signature="launchFacebook()[pri:0, instance:com.testng.demo.SeleniumLocatorsDemo@3972a855]" started-at="2023-04-15T22:43:54 IST" name="launchFacebook" finished-at="2023-04-15T22:44:14 IST" duration-ms="19038" status="PASS">
+    <test started-at="2023-04-16T21:44:49 IST" name="Default test" finished-at="2023-04-16T21:46:14 IST" duration-ms="85453">
+      <class name="com.testng.demo.SeleniumMethodsDemo1">
+        <test-method signature="selMethodsDemo1()[pri:0, instance:com.testng.demo.SeleniumMethodsDemo1@1f97cf0d]" started-at="2023-04-16T21:44:49 IST" name="selMethodsDemo1" finished-at="2023-04-16T21:46:14 IST" duration-ms="85409" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchFacebook -->
-      </class> <!-- com.testng.demo.SeleniumLocatorsDemo -->
+        </test-method> <!-- selMethodsDemo1 -->
+      </class> <!-- com.testng.demo.SeleniumMethodsDemo1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
