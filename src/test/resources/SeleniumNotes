@@ -70,20 +70,22 @@ Alert.dismiss()-->
 
 findElement()-->
 findElements()-->
-getWindowHandle()-->
 
-*** Yet to cover in next week **
+getWindowHandle()-->
+getWindowHandles()-->
+switchToWindow()-->
 
 Select class in Selenium
 SelectByIndex()-->
 SelectBYValue()-->
 SelectByVisibleText()-->
 
-getWindowHandle()-->
-getWindowHandles()-->
-switchToWindow()-->
+JavascriptExecutor - Interface
 
-JavascriptExecutor
+capture screenshot
+
+Page Object Model  - POM  - Design pattern
+pom.xml - > Project Object Model
 
 
 

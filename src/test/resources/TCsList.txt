@@ -1,0 +1,31 @@
+
+https://www.speaklanguages.com/
+
+Testcase1: Verify Signup
+			 - Launch application in Chrome
+			 - Click on SignUp link on the page
+			 - Fill all the form fields like Fname, LName, Email, Password, Sex and DOB
+			 - Click on SignUp button
+			 - Verify the SignUp message (Thank you � now activate your account!)
+			 - Verify Page title for SignUp (Please activate your account)
+ 
+Testcase2: Verify login
+			- Launch application in Chrome
+			- Click on Login link on the page
+			- Fill all the fields like Email address and password
+			- Click on LogIn button
+			- Verify login is successful by checking page title (Learn English online)
+			
+Testcase3: Verify HomePage
+			- Launch application in Chrome
+			- Click on Login button on the page
+			- Fill all the fields like Email address and password
+			- Click on LogIn button
+			- Verify SpeakEnglish Logo
+			- Verify loggedIn user name
+			- Verify homepage details - search field and pagetitle
+				
+Testcase4: Verify Footer
+			 - Launch application in Chrome
+			 - Scroll page to the footer section
+			 - Verify links and other data in footer

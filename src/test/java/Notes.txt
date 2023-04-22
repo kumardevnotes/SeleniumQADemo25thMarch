@@ -1,7 +1,0 @@
-
-Agenda for today: 9th April 2023
-
-Selenium Introduction
-Webpage terminology and basics
-TestNG examle with Selenium script
-TestNG concepts deepdive
