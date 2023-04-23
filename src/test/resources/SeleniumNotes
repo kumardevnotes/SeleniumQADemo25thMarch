@@ -19,23 +19,38 @@ linkText
 partialLinkText
 tagName
 
-
 xPath
+CSSSelector --
 
-css Selector
+xPath -->  Absolute xpath which starts with /
+           /html/body/div[1]/div[1]/div[4]/ul/li[2]/a
+           
+            
+           Relative xpath which starts with //
+           //a[text()='Sign up']  --> Exact text match
+           //a[.='Sign up']  --> Exact text match
+           
+           //a[contains(text(),'Sign up')] --> Partial text match
+           
+           //li[@id='nav_signup']  --> Attribute based xpath
+           //li[@class='class_signup'] 
+           //li[@name='nav_signup'] 
+           //li[@title='title'] 
+           
+           //li[@id='nav_signup']/a  --> Parent to child
+           //a[.='Sign up']/..  --> Child to its parent
+           
+           (//p[@class='site_link']/a)[2] --> Index based. Trying to locate second element out of all matchings
+           
+           (//p[@class='site_link']/a)[1]    --> to locate first matching element 
+           (//p[@class='site_link']/a)[last()] --> to locate last matching element
 
-xPath -->  Absolute xpath which starts with / and relative xpath which starts with //
+           //a[.='Privacy policy']/following-sibling::a
+           //a[.='Terms of use']/preceding-sibling::a
+           
+           //*    --> All the tags in the DOM -  document object model
+           //a   ---> It locates all the anchor tags in the screen
 
-Absolute xpath: /html/body/div[1]/div[1]/div[4]/ul/li[2]/a
-
-Relatinx xpath using exact text match --> //a[text()='Sign up']
-//li[@id='nav_login'] --> using attribute and its value
-//input[@name='first_name']
-
-//h1[contains(text(),'to Speak Languages')] --> partial text match
-(//div//input[@name])[4] --> index based xath
-
-//input[@name='first_name']/..
 
 
     ::Selenium methods::
@@ -84,8 +99,11 @@ JavascriptExecutor - Interface
 
 capture screenshot
 
-Page Object Model  - POM  - Design pattern
-pom.xml - > Project Object Model
+   ::
+   
+Page Object Model  - POM  -  it is a Design pattern - it is a best practice in automation
+pom.xml - > Project Object Model . It is an xml based project document
+            -  you will add your dependencies/plugins/configurations
 
 
 

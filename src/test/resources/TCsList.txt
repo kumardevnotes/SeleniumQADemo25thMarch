@@ -1,6 +1,8 @@
 
 https://www.speaklanguages.com/
 
+Java faker library -- which is used to generate dynamic synthetic data
+
 Testcase1: Verify Signup
 			 - Launch application in Chrome
 			 - Click on SignUp link on the page
