@@ -23,6 +23,17 @@ public class HomePage {
 		isLogoDisplayed = driver.findElement(appLogo).isDisplayed();
 		isUserLabelDisplayed = driver.findElement(loggedInUserLabel).isDisplayed();
 
+		/*
+		// if displayed, it returns true, if not it returns false
+		driver.findElement(appLogo).isDisplayed();
+
+		// if enabled, it returns true, if not it returns false
+		driver.findElement(appLogo).isEnabled();
+
+		// if selected, it returns true, if not it returns false
+		driver.findElement(loggedInUserLabel).isSelected();
+		*/
+
 		return isTitleMatched && isLogoDisplayed && isUserLabelDisplayed;
 	}
 }
