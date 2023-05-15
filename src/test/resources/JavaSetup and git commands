@@ -1,0 +1,36 @@
+
+Open-source automation tools - Selenium- Java/C#/Python/Ruby - Javascript
+Licensed automation tools - UFT/TOSCA
+
+----------------------------------------------
+1. Setup java in your machine (JDK -Java development Kit >= 8) 
+    A. Create a profile in Oracle website - Oracle login
+	B. Download JDK (Mac/Windows) - download jdk11
+	C. Install the downloaded file - double click - next -close
+	D. Setup java path 
+	  i. Open environment variables window
+	  ii. goto system variables and add JAVA_HOME variable with value C:\Program Files\Java\jdk-11.0.13
+	F. Open terminol/command prompt and then java -version - it should show up the java version   
+	
+2. IDE - Integrated development environment - Eclipse, Intellij, VSCode
+    eclipse	
+	A.writing java code, compile, build and run your java
+	
+3. GIT - git is a version control software. Used to 
+      push/check-in - into a repository
+	  pull/check-out/download/clone - from repository
+	  
+	  
+    ********* How to clone/Download latest code into my laptop? **********
+
+1. Open your project in eclipse and then right click - Shown In
+   and then select Terminal
+2. Then execute below command back to back
+
+    git reset --hard
+	git fetch origin
+	git pull
+	
+3. Next goto eclipse and right click and then select Refresh
+4. Next goto eclipse and right click and then select Maven - Update project
+	
