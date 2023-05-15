@@ -20,6 +20,8 @@ public class ArraysDemo2 {
 		}
 		
 		System.out.println("Hello Arrays");
+		System.out.println("Hello Arrays");
+		System.out.println("Hello Arrays");
 	}
 
 }
