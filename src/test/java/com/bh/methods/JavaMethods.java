@@ -7,7 +7,7 @@ public class JavaMethods {
 		String empName = "John Miller";
 		//System.out.println(empName);
 
-		// calling a method by its name in main()
+		// calling a method by its name
 		//displayEmpSalay();
 		
 		displayEmpPincode();
